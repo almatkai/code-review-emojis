@@ -1,0 +1,18 @@
+Code Review Emoji Guide — Native V2
+
+Original Raycast extension: rus64 (MIT).
+Source: https://github.com/raycast/extensions/tree/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/code-review-emojis
+Original guide: erikthedeveloper, https://github.com/erikthedeveloper/code-review-emoji-guide
+Original repository license: Copyright (c) 2021 Raycast; see licenses/MIT-upstream.txt.
+Native port: Copyright (c) 2026 almatkai; see licenses/MIT-port.txt.
+
+The tests/fixtures/beta files are unchanged Tezbar beta source snapshots at
+fd300e276356587726566026f072563eb9c34cb1, Copyright 2026 Almat,
+licensed under Apache License 2.0. See licenses/Apache-2.0-beta.txt.
+The headless test harness is separate from those unchanged fixtures.
+
+The icon is a byte-identical copy of the original asset. Unicode sequences,
+titles and actions are ported without normalization. The captured source tree
+is derived by executing the pinned TSX with element-only mocks. Rust logic,
+production adapter, verification tools and integration documentation were added
+for Native V2. Packaging SPDX expression: MIT AND Apache-2.0.

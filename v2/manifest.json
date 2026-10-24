@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.code-review-emojis",
+  "slug": "code-review-emojis",
+  "name": "Code Review Emoji Guide",
+  "version": "0.1.0",
+  "description": "A simple emoji legend to help convey intention and added meaning in code review comments. Original extension by rus64; guide by erikthedeveloper.",
+  "icon": "/extensions/icons/code-review-emojis.png",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.code-review-emojis"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "commands": [
+    {
+      "name": "index",
+      "title": "Show Review Emoji",
+      "description": "Shows a list of emojis that can be used for code review, in line with the Code Review Emoji Guide.",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust"
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Real OS/UI verification has not been performed."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Real OS/UI verification has not been performed."
+    }
+  ]
+}

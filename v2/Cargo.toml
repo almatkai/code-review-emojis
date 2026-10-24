@@ -1,0 +1,19 @@
+[package]
+name = "code-review-emojis"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT AND Apache-2.0"
+description = "Compiled-in Tezbar Native V2 port of rus64's Code Review Emoji Guide"
+repository = "https://github.com/almatkai/code-review-emojis"
+readme = "README.md"
+include = ["/src/**", "/examples/**", "/tests/**", "/tools/*.mjs", "/tools/package.json", "/tools/pnpm-lock.yaml", "/assets/**", "/licenses/**", "/Cargo.lock", "/README.md", "/INTEGRATION.md", "/VALIDATION.md", "/NOTICE", "/provenance.json", "/manifest.json", "/.gitignore"]
+
+[dependencies]
+serde_json = "=1.0.145"
+getrandom = "=0.2.16"
+
+[dev-dependencies]
+tokio = { version = "=1.47.1", features = ["macros", "rt-multi-thread"] }
+tempfile = "=3.23.0"
+log = "=0.4.28"

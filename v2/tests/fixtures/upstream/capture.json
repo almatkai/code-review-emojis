@@ -1,0 +1,125 @@
+{
+  "placeholder": "Search Emojis",
+  "sections": [
+    {
+      "title": "Emojis",
+      "rows": [
+        {
+          "icon": "😃",
+          "title": "I like this and I want the author to know it!",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "😃"
+            }
+          ]
+        },
+        {
+          "icon": "🔧",
+          "title": "I think this needs to be changed.",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "🔧"
+            }
+          ]
+        },
+        {
+          "icon": "❓",
+          "title": "I have a question.",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "❓"
+            }
+          ]
+        },
+        {
+          "icon": "💭",
+          "title": "Let me think out loud here for a minute.",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "💭"
+            }
+          ]
+        },
+        {
+          "icon": "🌱",
+          "title": "Planting a seed for future.",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "🌱"
+            }
+          ]
+        },
+        {
+          "icon": "📝",
+          "title": "This is an explanatory note.",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "📝"
+            }
+          ]
+        },
+        {
+          "icon": "⛏️",
+          "title": "This is a nitpick.",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "⛏️"
+            }
+          ]
+        },
+        {
+          "icon": "♻️",
+          "title": "Suggestion for refactoring.",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "♻️"
+            }
+          ]
+        },
+        {
+          "icon": "🏕",
+          "title": "Here is an opportunity to leave the code cleaner than we found it.",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "🏕"
+            }
+          ]
+        },
+        {
+          "icon": "📌",
+          "title": "This is a concern that is out of scope and should be staged appropriately for follow up.",
+          "actions": [
+            {
+              "type": "Action.Paste",
+              "content": "📌"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "More",
+      "rows": [
+        {
+          "icon": "📘",
+          "title": "Open Code Review Emoji Guide",
+          "actions": [
+            {
+              "type": "Action.OpenInBrowser",
+              "url": "https://github.com/erikthedeveloper/code-review-emoji-guide"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
