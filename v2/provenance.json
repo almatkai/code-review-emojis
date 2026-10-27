@@ -1,0 +1,91 @@
+{
+  "packagingLicense": "MIT AND Apache-2.0",
+  "upstream": {
+    "repository": "https://github.com/raycast/extensions",
+    "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+    "path": "extensions/code-review-emojis",
+    "author": "rus64",
+    "license": "MIT",
+    "files": [
+      {
+        "file": "tests/fixtures/upstream/index.tsx",
+        "sourcePath": "extensions/code-review-emojis/src/index.tsx",
+        "sha256": "b4488e30644cf11c423c25f57890c3027886a3bce7c901e215b8cfb2bed50c21"
+      },
+      {
+        "file": "tests/fixtures/upstream/package.json",
+        "sourcePath": "extensions/code-review-emojis/package.json",
+        "sha256": "1b337d44a144892c60d41a59b2a854e0585a6f90fdbfbc1b835ec345f1a9e983"
+      },
+      {
+        "file": "tests/fixtures/upstream/LICENSE",
+        "sourcePath": "LICENSE",
+        "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755"
+      }
+    ]
+  },
+  "beta": {
+    "repository": "https://github.com/almatkai/Tezbar",
+    "commit": "fd300e276356587726566026f072563eb9c34cb1",
+    "license": "Apache-2.0",
+    "files": [
+      {
+        "file": "tests/fixtures/beta/common.rs",
+        "sourcePath": "src-tauri/src/native_core/common.rs",
+        "sha256": "280a0a2f0dd04a8570b320aafc0c3ece0f5de8ddb21c363645567d6a35d84da7"
+      },
+      {
+        "file": "tests/fixtures/beta/v2_sdk.rs",
+        "sourcePath": "src-tauri/src/native_core/extensions/v2_sdk.rs",
+        "sha256": "4f987346f863db9a7bd6aa1d5a99e149925dc69a44d629727ccc80a567cd27c2"
+      },
+      {
+        "file": "tests/fixtures/beta/platform.rs",
+        "sourcePath": "src-tauri/src/native_core/platform.rs",
+        "sha256": "75fa7ce4204edbbdb0f4a5410895b32239939b707256c484dc3c4f9de390b5a1"
+      },
+      {
+        "file": "tests/fixtures/beta/list-runtime.tsx",
+        "sourcePath": "src/renderer/src/raycast-api/list-runtime.tsx",
+        "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f"
+      },
+      {
+        "file": "tests/fixtures/beta/index.tsx",
+        "sourcePath": "src/renderer/src/raycast-api/index.tsx",
+        "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64"
+      },
+      {
+        "file": "tests/fixtures/beta/extensionRuntime.ts",
+        "sourcePath": "src/shared/extensionRuntime.ts",
+        "sha256": "837b804856baa6b16ebda080920af456268fefcffa7a1c3e2964b95d697ee387"
+      },
+      {
+        "file": "tests/fixtures/beta/extension-v2.schema.json",
+        "sourcePath": "schemas/extension-v2.schema.json",
+        "sha256": "6d5afda1b652605982104bdf16d1547547b98dfd707a7b2969316406c49f32af"
+      },
+      {
+        "file": "tests/fixtures/beta/NATIVE_V2_FORMAT.md",
+        "sourcePath": "docs/NATIVE_V2_FORMAT.md",
+        "sha256": "8bf9315ad047326dd6737587ca5491fc35faf5e3f92a2d9c63f596be0c8f7b7a"
+      },
+      {
+        "file": "tests/fixtures/beta/LICENSE",
+        "sourcePath": "LICENSE",
+        "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+      }
+    ]
+  },
+  "asset": {
+    "file": "assets/code-review-emojis.png",
+    "sourcePath": "extensions/code-review-emojis/assets/command-icon.png",
+    "bytes": 61058,
+    "sha256": "bd624e90c496cd28413add5990d3df7c31688425dd88aa8a7aef6ea205a8b41c",
+    "copy": "Byte-identical to the pinned upstream icon and V1 assets/command-icon.png; no processing."
+  },
+  "derivedCapture": {
+    "file": "tests/fixtures/upstream/capture.json",
+    "generator": "node tools/oracle.mjs --capture",
+    "method": "Execute pinned original TSX after TypeScript transpilation with React and Raycast element-only mocks. No desktop effects."
+  }
+}
